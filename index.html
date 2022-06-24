@@ -33,7 +33,10 @@
    carousel()                                                
 }">  
  
-    
+  <input type=button value="STOP" onclick="{
+   myIndex = 0  
+   clearInterval(myLooper)  
+}">      
   
   
 <input type=button value="Back" onclick="{
@@ -94,7 +97,7 @@
  let myIndex = 1
  let myLooper = 0
  let myCounting = 0
- let myMainNum = 20
+ let myMainNum = 20   // if you have less than 20 slides you can reduce this number. Or just stop the Code
  let myCountUp = 0
  let xSlide = document.getElementsByClassName("mySlides"); 
  //carousel();
