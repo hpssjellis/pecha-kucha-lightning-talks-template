@@ -1,7 +1,7 @@
 # pecha-kucha-template
 Pecha Kucha lightning talks Template 20 slides in 5 minutes with a recording
 
-Aafter forking this repository
+After forking this repository
 
 Setup up gitPages to make a website of your fork  
 click "settings"  select Pages select master and save. Click the link and save it best in your README.md file
